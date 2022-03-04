@@ -47,17 +47,17 @@ API Game
 ============
 <p>
 <strong>GET</strong> - http://localhost/games/{word} -> Word parameter is a Character and will return the following structure of json:
-<br>&emsp;    {
-<br>&emsp;&emsp;        word: String, -- Each turn that the player throws the right guess the text will be filled. 
-<br>&emsp;&emsp;        guess: String, -- Current guess of the player.
-<br>&emsp;&emsp;        misses: String, -- Words that the player has missed.
-<br>&emsp;&emsp;        message: String -- Message that will be displayed at the following three occasions: 
-        &emsp;&emsp;                    <ul>
-        &emsp;&emsp;                        <li>1- For victory will be "YOU'RE SAVED!!"</li>
-        &emsp;&emsp;                        <li>2- For defeat will be "YOU WERE HANGED!!"</li>
-        &emsp;&emsp;                        <li>3- Case the player throws a repeated word "You already play this word!!"</li>
-        &emsp;&emsp;                    </ul>    
-<br>&emsp;    }
+<br>    {
+<br>&ensp;        word: String, -- Each turn that the player throws the right guess the text will be filled. 
+<br>&ensp;        guess: String, -- Current guess of the player.
+<br>&ensp;        misses: String, -- Words that the player has missed.
+<br>&ensp;        message: String -- Message that will be displayed at the following three occasions: 
+                            <ol>
+                                <li>For victory will be "YOU'RE SAVED!!"</li>
+                                <li>For defeat will be "YOU WERE HANGED!!"</li>
+                                <li>Case the player throws a repeated word "You already play this word!!"</li>
+                            </ol>    
+<br>    }
 <br><strong>DELETE</strong> - localhost/games -> Reset the game
 </p>
 
