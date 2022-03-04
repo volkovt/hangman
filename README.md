@@ -88,5 +88,6 @@ Future Implementations
     <ol>
         <li>Link Logged user to the Game.</li>
         <li>Create Developer and Production environment.</li>
+        <li>Create DB on AWS RDS using postgree</li>
     </ol>
 </p>
