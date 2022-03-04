@@ -19,13 +19,17 @@ Instruction
 ============
 <p>
 All the endpoints that match GET request will be available without authentication.
-<br>For the others the player must be authenticated. Follow the steps to use on Postman:
-<br>1 - the link for authentication is <strong>http://localhost:8080/oauth/token</strong>
-<br>2 - must enter on Basic Auth: 
-                            <ul>
-                                <li>Username: <strong>myclientid</strong></li>
-                                <li>Password: <strong>myclientsecret</strong></li>
-                            </ul>
+<br>For the others the player must be authenticated. 
+<br>Follow the steps to use on Postman:
+<ol>
+    <li>1 - the link for authentication is <strong>http://localhost:8080/oauth/token</strong></li>
+    <li>2 - must enter on Basic Auth: 
+                                <ul>
+                                    <li>Username: <strong>myclientid</strong></li>
+                                    <li>Password: <strong>myclientsecret</strong></li>
+                                </ul>
+    </li>
+</ol>
 </p>
 
 Usage
