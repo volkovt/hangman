@@ -17,12 +17,14 @@ Table of contents
 
 Instruction
 ============
-All the endpoints that match GET request will be available without authentication
-For the others the player must be authenticated. Follow the steps to use on Postman: 
+<p>
+All the endpoints that match GET request will be available without authentication.
+For the others the player must be authenticated. Follow the steps to use on Postman:
 1 - the link for authentication is http://localhost:8080/oauth/token
 2 - must enter on Basic Auth: 
                             * Username: myclientid
                             * Password: myclientsecret
+</p>
 
 Usage
 ============
