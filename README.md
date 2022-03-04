@@ -39,15 +39,17 @@ API Game
 <p>
 <strong>GET</strong> - http://localhost:8080/games/{word} -> Word parameter is a Character and will return the following structure of json:
 <br>    {
-<br>        word: String, -- Each turn that the player throws the right guess the text will be filled. 
-<br>        guess: String, -- Current guess of the player.
-<br>        misses: String, -- Words that the player has missed.
-<br>        message: String -- Message that will be displayed at the following three occasions: 
-<br>                           1- For victory will be "YOU'RE SAVED!!"
-<br>                           2- For defeat will be "YOU WERE HANGED!!"
-<br>                           3- Case the player throws a repeated word "You already play this word!!"
+<br>&emsp;        word: String, -- Each turn that the player throws the right guess the text will be filled. 
+<br>&emsp;        guess: String, -- Current guess of the player.
+<br>&emsp;        misses: String, -- Words that the player has missed.
+<br>&emsp;        message: String -- Message that will be displayed at the following three occasions: 
+                            <ul>
+                                <li>1- For victory will be "YOU'RE SAVED!!"</li>
+                                <li>2- For defeat will be "YOU WERE HANGED!!"</li>
+                                <li>3- Case the player throws a repeated word "You already play this word!!"</li>
+                            </ul>    
 <br>    }
-<strong>DELETE</strong> - localhost:8080/games -> Reset the game
+<br><strong>DELETE</strong> - localhost:8080/games -> Reset the game
 </p>
 
 API Word
