@@ -6,11 +6,11 @@ Table of contents
 =================
 
 <!--ts-->
-   * [Instruction](#apigame)
+   * [Instruction](#instruction)
    * [Usage](#usage)
-   * [API Game](#apigame)
-   * [API Word](#apiword)
-   * [API User](#apiuser)
+   * [API Game](#api-game)
+   * [API Word](#api-word)
+   * [API User](#api-user)
    * [Docker](#docker)
      * [Public](#public)
 <!--te-->
