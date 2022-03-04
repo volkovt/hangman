@@ -7,7 +7,7 @@ Table of contents
 
 <!--ts-->
    * [Instruction](#instruction)
-   * [Usage](#usage)
+   * [Extras](#extras)
    * [API Game](#api-game)
    * [API Word](#api-word)
    * [API User](#api-user)
@@ -30,12 +30,6 @@ All the endpoints that match GET request will be available without authenticatio
                                 </ul>
     </li>
 </ol>
-</p>
-
-Usage
-============
-<p>
-For the current month will be available on the following AWS enviroment: LINK AWS
 </p>
 
 API Game
@@ -68,4 +62,10 @@ API User
 ============
 <p>
 <strong>GET</strong> - http://localhost:8080/users/{id} -> Return the User registered with the id.
+</p>
+
+Extras
+============
+<p>
+For the current month will be available on the following AWS enviroment: LINK AWS
 </p>
