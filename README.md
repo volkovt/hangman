@@ -12,7 +12,6 @@ Table of contents
    * [API Word](#api-word)
    * [API User](#api-user)
    * [Docker](#docker)
-     * [Public](#public)
    * [Future Implementations](#future-implementations)
 <!--te-->
 
