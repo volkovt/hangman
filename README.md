@@ -52,11 +52,11 @@ API Game
 <br>&emsp;&emsp;        guess: String, -- Current guess of the player.
 <br>&emsp;&emsp;        misses: String, -- Words that the player has missed.
 <br>&emsp;&emsp;        message: String -- Message that will be displayed at the following three occasions: 
-        &emsp;                    <ul>
-        &emsp;                        <li>1- For victory will be "YOU'RE SAVED!!"</li>
-        &emsp;                        <li>2- For defeat will be "YOU WERE HANGED!!"</li>
-        &emsp;                        <li>3- Case the player throws a repeated word "You already play this word!!"</li>
-        &emsp;                    </ul>    
+        &emsp;&emsp;                    <ul>
+        &emsp;&emsp;                        <li>1- For victory will be "YOU'RE SAVED!!"</li>
+        &emsp;&emsp;                        <li>2- For defeat will be "YOU WERE HANGED!!"</li>
+        &emsp;&emsp;                        <li>3- Case the player throws a repeated word "You already play this word!!"</li>
+        &emsp;&emsp;                    </ul>    
 <br>&emsp;    }
 <br><strong>DELETE</strong> - localhost/games -> Reset the game
 </p>
