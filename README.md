@@ -18,40 +18,48 @@ Table of contents
 Instruction
 ============
 <p>
-<br>All the endpoints that match GET request will be available without authentication.
+All the endpoints that match GET request will be available without authentication.
 <br>For the others the player must be authenticated. Follow the steps to use on Postman:
-<br>1 - the link for authentication is http://localhost:8080/oauth/token
+<br>1 - the link for authentication is <strong>http://localhost:8080/oauth/token</strong>
 <br>2 - must enter on Basic Auth: 
                             <ul>
-                                <li>Username: myclientid</li>
-                                <li>Password: myclientsecret</li>
+                                <li>Username: <strong>myclientid</strong></li>
+                                <li>Password: <strong>myclientsecret</strong></li>
                             </ul>
 </p>
 
 Usage
 ============
+<p>
 For the current month will be available on the following AWS enviroment: LINK AWS
+</p>
 
 API Game
 ============
-GET - http://localhost:8080/games/{word} -> Word parameter is a Character and will return the following structure of json:
-    {
-        word: String, -- Each turn that the player throws the right guess the text will be filled. 
-        guess: String, -- Current guess of the player.
-        misses: String, -- Words that the player has missed.
-        message: String -- Message that will be displayed at the following three occasions: 
-                           1- For victory will be "YOU'RE SAVED!!"
-                           2- For defeat will be "YOU WERE HANGED!!"
-                           3- Case the player throws a repeated word "You already play this word!!"
-    }
-DELETE - localhost:8080/games -> Reset the game
+<p>
+<strong>GET</strong> - http://localhost:8080/games/{word} -> Word parameter is a Character and will return the following structure of json:
+<br>    {
+<br>        word: String, -- Each turn that the player throws the right guess the text will be filled. 
+<br>        guess: String, -- Current guess of the player.
+<br>        misses: String, -- Words that the player has missed.
+<br>        message: String -- Message that will be displayed at the following three occasions: 
+<br>                           1- For victory will be "YOU'RE SAVED!!"
+<br>                           2- For defeat will be "YOU WERE HANGED!!"
+<br>                           3- Case the player throws a repeated word "You already play this word!!"
+<br>    }
+<strong>DELETE</strong> - localhost:8080/games -> Reset the game
+</p>
 
 API Word
 ============
-GET - http://localhost:8080/words -> Returns all the words saved on the database.
-GET - http://localhost:8080/words/{id} -> Returns the word the matches the id.
-POST - http://localhost:8080/games?name=newWord -> save the new word on the database
+<p>
+<strong>GET</strong> - http://localhost:8080/words -> Returns all the words saved on the database.
+<br><strong>GET</strong> - http://localhost:8080/words/{id} -> Returns the word the matches the id.
+<br><strong>POST</strong> - http://localhost:8080/games?name=newWord -> save the new word on the database
+</p>
 
 API User
 ============
-GET - http://localhost:8080/users/{id} -> Return the User registered with the id.
+<p>
+<strong>GET</strong> - http://localhost:8080/users/{id} -> Return the User registered with the id.
+</p>
